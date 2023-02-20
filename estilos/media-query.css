@@ -1,0 +1,41 @@
+
+/* 
+    typical device breakpoints 
+
+    small screens: max-width: 600px
+    phone: max-width: 600px - 768px
+    tablet: max-width: 768px - 992px
+    desktop: max-width: 992px - 1024px
+    extra large screens: above 1024px
+*/
+    
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    
+
+    .header__navBar__menu{  
+        position: relative;
+        top: 0;
+        left: 0;
+        height: auto;
+        width: auto;
+    }
+
+    .header__navBar__menu__menuList li {
+        display: inline-block;
+    }
+    .header__navBar__menu__menuList li:not(:last-child) {
+        margin-right: 1rem;
+    }
+
+    .header__navBar__menu-icon{
+        display: none;
+    }
+    .menu__icon-close{
+        display: none;
+    }
+
+}
+
+
+    
