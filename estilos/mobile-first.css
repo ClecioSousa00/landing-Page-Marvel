@@ -18,6 +18,13 @@ html{
     font-family: 'Quicksand', sans-serif;
 }
 
+/* classes reutilizaveis */
+.button-icons{
+    font-size: 4.5rem;
+    color: #fff;
+}
+/* ------------------ */
+
 
 header{
     background-image: url(../imagens/img-mobile/spider-man-mobile.png);
@@ -56,11 +63,32 @@ header{
     align-self: flex-end;
     margin: 2rem 1.4rem 4rem 0rem;
 }
-#icon-close{
-    font-size: 5rem;
-    color: #fff;
+
+.menu__search-box{
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    align-self: flex-start;
 }
 
+.search-box__text{
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 1.6rem;
+    color: #fff;
+    width: 0rem;
+    border-bottom: 0.05rem solid #fff;
+    transition: all 0.5s ease;
+    
+}
+
+
+.menu__search-box:hover .search-box__text{
+    width: 80%;
+    
+}
 .header__navBar__menu__menuList{
     list-style: none;
 }
@@ -79,9 +107,6 @@ header{
     width: 70%;
 }
 
-#menu-icon{
-    font-size: 5rem;
-    color: #fff;
-}
+
 
   
