@@ -177,4 +177,15 @@
     .menu__icon-close{
         display: none;
     }
+
+    .header__container{
+        top: 12rem;
+        left: 5rem;
+        bottom: auto;
+    }
+
+    .container__card{
+        position: absolute;
+        bottom: 5rem;
+    }
 }

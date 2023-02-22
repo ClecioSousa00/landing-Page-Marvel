@@ -70,7 +70,7 @@
 }
 
 .header__navBar__menu__menuList li a:hover{
-    color: var(--color-hover);
+    
     font-size: 1.9rem;
 }
 
