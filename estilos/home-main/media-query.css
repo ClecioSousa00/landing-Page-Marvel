@@ -13,7 +13,7 @@
 @media screen and (min-width: 600px) and (max-width: 768px) {
     
     header{
-        background-image: url(../imagens/img-desktop/spider-man-desktop.png);
+        background-image: url(../../imagens/img-desktop/spider-man-desktop.png);
         background-position: center;
     }
 
@@ -52,7 +52,7 @@
 @media screen and (min-width: 769px) and (max-width: 992px) {
     
     header{
-        background-image: url(../imagens/img-desktop/spider-man-desktop.png);
+        background-image: url(../../imagens/img-desktop/spider-man-desktop.png);
         background-position: center;
     }
 
@@ -93,7 +93,7 @@
     }
 
     header{
-        background-image: url(../imagens/img-desktop/spider-man-desktop.png);
+        background-image: url(../../imagens/img-desktop/spider-man-desktop.png);
         background-position: center;
     }
    
@@ -135,7 +135,7 @@
 
 
     header{
-        background-image: url(../imagens/img-desktop/spider-man-desktop.png);
+        background-image: url(../../imagens/img-desktop/spider-man-desktop.png);
         background-position: center;
     }
 

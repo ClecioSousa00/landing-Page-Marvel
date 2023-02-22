@@ -1,0 +1,16 @@
+
+
+
+.social-media{
+    padding: 0rem 0rem 2rem 2rem;
+}
+
+.social-media__group li{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.social-media__group .font__text{
+    font-size: 1.8rem;
+    text-decoration: none;
+}

@@ -1,0 +1,9 @@
+header{
+    background-image: url(../../imagens/img-mobile/spider-man-mobile.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
