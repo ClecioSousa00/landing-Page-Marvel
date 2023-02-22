@@ -134,10 +134,20 @@
     }
 
 
-    header{
-        background-image: url(../../imagens/img-desktop/spider-man-desktop.png);
+
+    header, .header__home, .header__serie{
         background-position: center;
     }
+    
+    .header__home{
+        background-image: url(../../imagens/img-desktop/spider-man-desktop.png);
+    }
+    
+    .header__serie{
+        background-image: url(../../imagens/img-desktop/moon-knight-desktop.png);
+    }
+
+    
 
     .header__navBar__menu{  
         position: relative;
