@@ -184,8 +184,9 @@
         bottom: auto;
     }
 
-    .container__card{
+    .container__carousel{
         position: absolute;
         bottom: 5rem;
+        margin: auto;
     }
 }
