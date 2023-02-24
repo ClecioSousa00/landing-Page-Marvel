@@ -1,7 +1,48 @@
-.container__card{
-    height: 19rem;
+.container__carousel{
+   max-width: 100%;
+   display: flex;
+   align-items: center;
+   padding: 1.5rem;
+   gap: 1rem;
+}
+.container__carousel button{
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.container__carousel button:hover{
+    background-color:  #23232585;
+}
+
+.container__carousel__slides{
+    
+}
+
+.container__carousel__filme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     max-width: 31.4rem;
+    min-height: 19.3rem;
+   border-radius: 2rem;
+   overflow: hidden;
+   
+}
+
+.container__carousel__filme:not(:last-child){
+    margin-right: 1rem;
+}
+.container__carousel__filme img{
     width: 100%;
-    background-color: black;
+}
+
+.arrow-btn{
+    font-size: 4rem;
+    color: #fff;
+    
     
 }
