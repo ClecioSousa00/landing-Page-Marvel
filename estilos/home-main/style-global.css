@@ -48,6 +48,7 @@ html{
     border: none;
     width: 100%;
     padding: 0.5rem 1.4rem;
+    cursor: pointer;
 }
 .stream-btn__icon{
     font-size: 2rem;
