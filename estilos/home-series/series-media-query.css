@@ -1,0 +1,118 @@
+
+/* typical device breakpoints 
+
+    small screens: max-width: 600px
+    phone: max-width: 600px - 768px
+    tablet: max-width: 768px - 992px
+    desktop: max-width: 992px - 1024px
+    extra large screens: above 1024px
+
+*/
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+    .header__serie{
+        background-image: url(../../imagens/img-desktop/moon-knight-desktop.png);
+        height: 70vh;
+        background-position: center;
+    }
+    .header__container{
+        left: 3rem;
+        top: 30rem;
+        bottom: auto;
+    }
+    .description__marvel-studios .font__text{
+        max-width: 70rem;
+        margin: auto;
+    }
+
+    .container__carousel{
+        margin-top: 1.5rem;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    .header__serie{
+        background-image: url(../../imagens/img-desktop/moon-knight-desktop.png);
+        height: 70vh;
+        background-position: center;
+    }
+    .header__container{
+        left: 3rem;
+        top: 30rem;
+        bottom: auto;
+    }
+    .description__marvel-studios .font__text{
+        max-width: 70rem;
+        margin: auto;
+    }
+
+    .container__carousel{
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1024px) {
+
+    .header__serie{
+        background-image: url(../../imagens/img-desktop/moon-knight-desktop.png);
+        height: 70vh;
+        background-position: center;
+    }
+    .header__container{
+        left: 3rem;
+        top: 30rem;
+        bottom: auto;
+    }
+    
+    .description__marvel-studios .font__text{
+        max-width: 70rem;
+        margin: auto;
+    }
+    
+    .container__carousel{
+        margin-top: 1.5rem;
+    }
+}
+
+/* @media screen and (min-width: 1025px) {
+    
+    .header__serie{
+        background-image: url(../../imagens/img-desktop/moon-knight-desktop.png);
+    }
+    
+    .header__container{
+        top: 12rem;
+        left: 5rem;
+        bottom: auto;
+    }
+    
+    .container__carousel{
+        position: absolute;
+        bottom: 5rem;
+        margin: 0 auto;
+    }
+} */
+
+@media screen and (min-width: 1025px) {
+
+    .header__serie{
+        background-image: url(../../imagens/img-desktop/moon-knight-desktop.png);
+    }
+    .header__container{
+        left: 3rem;
+        top: 30rem;
+        bottom: auto;
+    }
+    
+    .description__marvel-studios .font__text{
+        max-width: 70rem;
+        margin: auto;
+    }
+    
+    .container__carousel{
+        margin-top: 1.5rem;
+    }
+}

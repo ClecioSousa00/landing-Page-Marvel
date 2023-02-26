@@ -12,7 +12,7 @@
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
     
-    header{
+    .header__home{
         background-image: url(../../imagens/img-desktop/spider-man-desktop.png);
         background-position: center;
     }
@@ -44,6 +44,11 @@
     }
     .menu__icon-close{
         display: none;
+    }
+    .header__container{
+        left: 3rem;
+        top: 30rem;
+        bottom: auto;
     }
 
 }
@@ -51,103 +56,10 @@
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
     
-    header{
-        background-image: url(../../imagens/img-desktop/spider-man-desktop.png);
-        background-position: center;
-    }
-
-    .header__navBar__menu{  
-        position: relative;
-        top: 0;
-        left: 0;
-        height: auto;
-        width: auto;
-        background: transparent;
-        flex-direction: row-reverse;
-    }
-  
-    .menu__search-box:hover .search-box__text{
-        width: 15rem; 
-        
-    }
-
-    .header__navBar__menu__menuList li {
-        display: inline-block;
-    }
-    .header__navBar__menu__menuList li:not(:last-child) {
-        margin-right: 1rem;
-    }
-
-    .header__navBar__menu-icon{
-        display: none;
-    }
-    .menu__icon-close{
-        display: none;
-    }
-}
-
-@media screen and (min-width: 993px) and (max-width: 1024px) {
-   
-    .button-icons{
-        font-size: 3.5rem;
-    }
-
-    header{
-        background-image: url(../../imagens/img-desktop/spider-man-desktop.png);
-        background-position: center;
-    }
-   
-    .header__navBar__menu{  
-        position: relative;
-        top: 0;
-        left: 0;
-        height: auto;
-        width: auto;
-        background: transparent;
-        flex-direction: row-reverse;
-    }
-  
-    .menu__search-box:hover .search-box__text{
-        width: 15rem; 
-        
-    }
-
-    .header__navBar__menu__menuList li {
-        display: inline-block;
-    }
-    .header__navBar__menu__menuList li:not(:last-child) {
-        margin-right: 1rem;
-    }
-
-    .header__navBar__menu-icon{
-        display: none;
-    }
-    .menu__icon-close{
-        display: none;
-    }
-}
-
-@media screen and (min-width: 1025px) {
-    
-    .button-icons{
-        font-size: 3.5rem;
-    }
-
-
-
-    header, .header__home, .header__serie{
-        background-position: center;
-    }
-    
     .header__home{
         background-image: url(../../imagens/img-desktop/spider-man-desktop.png);
+        background-position: center;
     }
-    
-    .header__serie{
-        background-image: url(../../imagens/img-desktop/moon-knight-desktop.png);
-    }
-
-    
 
     .header__navBar__menu{  
         position: relative;
@@ -179,14 +91,103 @@
     }
 
     .header__container{
-        top: 12rem;
-        left: 5rem;
+        left: 3rem;
+        top: 30rem;
         bottom: auto;
     }
+}
 
-    .container__carousel{
-        position: absolute;
-        bottom: 5rem;
-        margin: auto;
+@media screen and (min-width: 993px) and (max-width: 1024px) {
+   
+    .button-icons{
+        font-size: 3.5rem;
+    }
+
+    .header__home{
+        background-image: url(../../imagens/img-desktop/spider-man-desktop.png);
+        background-position: center;
+    }
+   
+    .header__navBar__menu{  
+        position: relative;
+        top: 0;
+        left: 0;
+        height: auto;
+        width: auto;
+        background: transparent;
+        flex-direction: row-reverse;
+    }
+  
+    .menu__search-box:hover .search-box__text{
+        width: 15rem; 
+        
+    }
+
+    .header__navBar__menu__menuList li {
+        display: inline-block;
+    }
+    .header__navBar__menu__menuList li:not(:last-child) {
+        margin-right: 1rem;
+    }
+
+    .header__navBar__menu-icon{
+        display: none;
+    }
+    .menu__icon-close{
+        display: none;
+    }
+
+    .header__container{
+        left: 3rem;
+        top: 30rem;
+        bottom: auto;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    
+    .button-icons{
+        font-size: 3.5rem;
+    }
+
+    
+    .header__home{
+        background-image: url(../../imagens/img-desktop/spider-man-desktop.png);
+        background-position: center;
+    }
+    
+    .header__navBar__menu{  
+        position: relative;
+        top: 0;
+        left: 0;
+        height: auto;
+        width: auto;
+        background: transparent;
+        flex-direction: row-reverse;
+    }
+  
+    .menu__search-box:hover .search-box__text{
+        width: 15rem; 
+        
+    }
+
+    .header__navBar__menu__menuList li {
+        display: inline-block;
+    }
+    .header__navBar__menu__menuList li:not(:last-child) {
+        margin-right: 1rem;
+    }
+
+    .header__navBar__menu-icon{
+        display: none;
+    }
+    .menu__icon-close{
+        display: none;
+    }
+
+    .header__container{
+        left: 3rem;
+        top: 30rem;
+        bottom: auto;
     }
 }

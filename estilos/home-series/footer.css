@@ -1,0 +1,53 @@
+
+
+footer{
+    background-color: var(--color-footer);
+    margin-top: 12.5rem;
+    height: 21.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.6rem 0rem 1.2rem 0rem;
+}
+
+.footer__marvel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer__marvel .footer__list__itens{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    display: block;
+    
+}
+
+.footer__marvel .footer__list__itens:not(:last-child){
+    margin-bottom: 0.3rem;
+}
+
+.footer__marvel img{
+    width: 17.7rem;
+}
+
+
+
+.footer__list{
+    list-style: none;
+}
+
+.footer__list__itens{
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.footer__terms .footer__list__itens{
+    display: inline;
+}
+
+.footer__terms .footer__list__itens:not(:first-child){
+    margin-left: 3rem;
+}

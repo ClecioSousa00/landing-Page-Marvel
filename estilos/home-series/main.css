@@ -1,9 +1,41 @@
+
+
+
+
+
+
+
+.description__marvel-studios{
+    text-align: center;
+    margin: 6rem 0rem;
+}
+.description__marvel-studios img{
+    width: 28rem;
+    margin-bottom: 1.8rem;
+}
+
+.description__marvel-studios .font__text{
+    max-width: 37rem;
+    margin: auto;
+}
+
+
+
+.carousel__text{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 2rem
+    
+}
+
+
 .container__carousel{
+    margin-top: 1.5rem;
    max-width: 100%;
    display: flex;
    align-items: center;
-   padding: 1.5rem;
-   gap: 1rem;
+   /* padding: 1.5rem;
+   gap: 1rem; */
 }
 .container__carousel button{
     border: none;
@@ -44,5 +76,5 @@
     font-size: 4rem;
     color: #fff;
     
-    
+    display: none;
 }

@@ -23,10 +23,5 @@ header, .header__home, .header__serie{
 
 .header__home{
     background-image: url(../../imagens/img-mobile/spider-man-mobile.png);
-   
 }
 
-.header__serie{
-    background-image: url(../../imagens/img-mobile/moon-knight-mobile.png);
-    
-}

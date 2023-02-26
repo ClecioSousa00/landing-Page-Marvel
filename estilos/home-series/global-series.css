@@ -1,0 +1,22 @@
+
+@import url('main.css');
+@import url('footer.css');
+
+:root{
+    --colorBackground: #232325;
+    --color-footer: #121213;
+}
+
+body{
+    background-color: var(--colorBackground);
+    height: 100vh;
+}
+
+.header__serie{
+    background-image: url(../../imagens/img-mobile/moon-knight-mobile.png);
+    
+}
+
+.logo__moon-knight{
+    width: 25rem;
+}
