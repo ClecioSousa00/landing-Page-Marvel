@@ -3,6 +3,15 @@ const buttonIconClose = document.querySelector('#icon-close')
 const menu = document.querySelector('#menu')
 const carousel = document.querySelector('.js-carousel')
 
+
+// const headerSerie = document.querySelector('.header__serie')
+// const filmePage = document.querySelector('#filmesPage')
+
+// filmePage.addEventListener('click', () =>{
+//     headerSerie.style.backgroundImage = "url('../../imagens/img-desktop/black-panther-desktop.png')"
+// })
+
+
 buttonIcon.addEventListener('click', () =>{
     menu.classList.add('active')
 })
@@ -30,3 +39,4 @@ new Glider(carousel, {
         }
     ]
 })
+
