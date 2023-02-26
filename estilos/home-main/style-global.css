@@ -23,7 +23,9 @@ html{
     font-size: 62.5%;
     font-family: 'Quicksand', sans-serif;
 }
-
+body{
+    height: 100vh;
+}
 /* classes reutilizaveis */
 .button-icons{
     font-size: 4.5rem;
