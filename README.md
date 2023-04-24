@@ -4,4 +4,4 @@
 
 ## Deploy
 
-* Acesse o projeto [Portifólio](https://cleciosousa00.github.io/landing-Page-Marvel/filmes.html)
+* Acesse o projeto [Marvel](https://cleciosousa00.github.io/landing-Page-Marvel/filmes.html)
